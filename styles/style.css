@@ -97,3 +97,66 @@ main {
     border-bottom: 1px solid #dfdfdf;
     margin: 50px 0px;
 }
+
+
+/* ---------------cards section--------------------- */
+
+.card_container {
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 50px;
+}
+
+.collection_container h4 {
+    color: var(--text_color);
+    font-size: 2rem;
+    text-align: center;
+    margin: 50px 0px;
+}
+
+
+.card_container img {
+    width: 90%;
+    padding: 20px;
+}
+.card_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card
+{
+    /* border: 1px solid red; */
+    /* width: 28rem; */
+    /* height: 32rem; */
+    border-radius: 10px;
+    box-shadow: 1px 1px 30px 10px #e4e4e4;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.card_text
+{
+    padding-left: 20px;
+} 
+
+.card_text h2 , h3 , p 
+{
+    margin: 10px 0px;
+}
+
+.ratings_container {
+    display: flex;
+    gap: 10px;
+}
+
+
+
+
+
+
+/* ----- cards section end ----- * / 
+
