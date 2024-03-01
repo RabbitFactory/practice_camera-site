@@ -106,7 +106,19 @@ main {
     grid-template-columns: repeat(3 , 1fr);
     gap: 50px;
 }
-
+.collection_container .see_more_button {
+    display: flex;
+    justify-content: end;
+    margin: 50px 0px;
+}
+.collection_container .see_more_button button {
+    background-color: transparent;
+    border: 0;
+    color: var(--primary_color);
+    font-size: 1.4rem;
+    cursor: pointer;
+    font-weight: 600;
+}
 .collection_container h4 {
     color: var(--text_color);
     font-size: 2rem;
@@ -158,5 +170,50 @@ main {
 
 
 
-/* ----- cards section end ----- * / 
+/* ----- cards section end ----- */ 
 
+.gearbox_section {
+    display: flex;
+    gap: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------- footer -------*/
+
+footer 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 50px;
+    background-color: var(--footer_color);
+    color: white;
+}
+
+footer p 
+{
+    margin: 0;
+}
+.icons {
+    display: flex;
+    gap: 40px;
+}
+.icons i 
+{
+    background-color: #252346;
+    padding: 7px;
+    border-radius: 50px;
+    margin-top: 15px;
+}
