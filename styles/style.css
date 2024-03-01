@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+}
+
+:root {
+    --primary_color: #E02C6D;
+    --footer_color: #0A0826;
+    --text_color: #3B3A3B;
+}
+
+
+
+/*-------------------------nav---------------------*/
+
+
+
+header {
+    max-width: 1640px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0px;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+}
+nav ul li {
+    list-style: none;
+}
+
+
+
+/* ---------- banner ----------- */
+
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.camera {
+    position: absolute;
+    top: 150px;
+    right: 150px;
+}
+header button {
+    background-color: var(--primary_color);
+    color: white;
+    border: 0;
+    border-radius: 2em;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 1em 2em;
+
+}
+
+header button i {
+    margin-left: 15px;
+}
+
+header p , h1{
+    color: var(--text_color);
+    margin: 20px 0px;
+}
+
+header h1 {
+    font-weight: 800;
+    font-size: 2.5rem;
+    max-width: 500px;
+}
+
+
+
+/* ------ brands ---- */
+main {
+    max-width: 1540px;
+    margin: 0 auto;
+}
+
+
+.brands_section {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    border-top: 1px solid #dfdfdf;
+    border-bottom: 1px solid #dfdfdf;
+    margin: 50px 0px;
+}
